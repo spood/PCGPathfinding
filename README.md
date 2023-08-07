@@ -4,11 +4,11 @@ An A* pathfinding implementation that can be used with PCG (Procedural Content G
 
 Project is made in Unreal 5.2
 
-# PCG Graph:
+# PCG Graph
 
 ![Demonstration](DemoPCGGraphBP.png)
 
-# Explanation:
+# Explanation
 
 1. Surface Sampler generates a grid of points with settings:
 - Points Per Squared Meter = 1.0
@@ -20,9 +20,7 @@ Project is made in Unreal 5.2
 5. BPCG Pathfinding does some magic to calculate the shortest path between the start and end in the A* pathfinding and outputs it as Points
 6. These Points are passed to Create Spline
 
-Demonstration Video:
+Demonstration Video
 
-![Demonstration](demo.webm)
-
-
+[demo.webm](https://github.com/spood/PCGPathfinding/assets/1010965/a454cfc6-68fd-463b-9a1a-3ab2908bb638)
 

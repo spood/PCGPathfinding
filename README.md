@@ -20,7 +20,18 @@ Project is made in Unreal 5.2
 5. BPCG Pathfinding does some magic to calculate the shortest path between the start and end in the A* pathfinding and outputs it as Points
 6. These Points are passed to Create Spline
 
+
+
 Demonstration Video
 
 [demo.webm](https://github.com/spood/PCGPathfinding/assets/1010965/a454cfc6-68fd-463b-9a1a-3ab2908bb638)
 
+# Blueprints 
+
+Feel free to inspect the blueprints without having to open the project:
+
+PCG_Pathfinding (ExecuteWithContext) https://blueprintue.com/blueprint/m-o5o5_1/
+
+PCG_GetStartEndPoints (ExecuteWithContext) https://blueprintue.com/blueprint/6nzzw6e9/
+
+PCG_GetStartEndPoints (PointLoopBody) https://blueprintue.com/blueprint/lnuqqy4n/
